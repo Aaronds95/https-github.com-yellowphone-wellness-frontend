@@ -14,6 +14,17 @@
 		936695F92B8A7AE70041CEBA /* WellnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936695F82B8A7AE70041CEBA /* WellnessTests.swift */; };
 		936696032B8A7AE70041CEBA /* WellnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936696022B8A7AE70041CEBA /* WellnessUITests.swift */; };
 		936696052B8A7AE70041CEBA /* WellnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936696042B8A7AE70041CEBA /* WellnessUITestsLaunchTests.swift */; };
+		936696182B8A93EC0041CEBA /* SetUpTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936696172B8A93EC0041CEBA /* SetUpTitleView.swift */; };
+		936696402BAF2EE10041CEBA /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366963F2BAF2EE10041CEBA /* ProgressButton.swift */; };
+		936696422BAF2F1E0041CEBA /* SquareSelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936696412BAF2F1E0041CEBA /* SquareSelectionButton.swift */; };
+		936696442BAF2F3F0041CEBA /* DetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936696432BAF2F3F0041CEBA /* DetailCard.swift */; };
+		936696462BAF30A40041CEBA /* GoalSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936696452BAF30A40041CEBA /* GoalSelectionView.swift */; };
+		936696482BAF31980041CEBA /* GoalSelectionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936696472BAF31980041CEBA /* GoalSelectionIntro.swift */; };
+		9366964A2BAF36380041CEBA /* GoalSetUpBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936696492BAF36380041CEBA /* GoalSetUpBar.swift */; };
+		9366964C2BAF82960041CEBA /* GoalSetUpIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366964B2BAF82960041CEBA /* GoalSetUpIntro.swift */; };
+		9366964E2BB08C8E0041CEBA /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366964D2BB08C8E0041CEBA /* UserDetailsView.swift */; };
+		936696502BB0E2400041CEBA /* IntroGoalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366964F2BB0E2400041CEBA /* IntroGoalsModel.swift */; };
+		936696522BB0E6790041CEBA /* IntroGoalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936696512BB0E6790041CEBA /* IntroGoalsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		936695FE2B8A7AE70041CEBA /* WellnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		936696022B8A7AE70041CEBA /* WellnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessUITests.swift; sourceTree = "<group>"; };
 		936696042B8A7AE70041CEBA /* WellnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		936696172B8A93EC0041CEBA /* SetUpTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpTitleView.swift; sourceTree = "<group>"; };
+		9366963F2BAF2EE10041CEBA /* ProgressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressButton.swift; sourceTree = "<group>"; };
+		936696412BAF2F1E0041CEBA /* SquareSelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareSelectionButton.swift; sourceTree = "<group>"; };
+		936696432BAF2F3F0041CEBA /* DetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCard.swift; sourceTree = "<group>"; };
+		936696452BAF30A40041CEBA /* GoalSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSelectionView.swift; sourceTree = "<group>"; };
+		936696472BAF31980041CEBA /* GoalSelectionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSelectionIntro.swift; sourceTree = "<group>"; };
+		936696492BAF36380041CEBA /* GoalSetUpBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSetUpBar.swift; sourceTree = "<group>"; };
+		9366964B2BAF82960041CEBA /* GoalSetUpIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSetUpIntro.swift; sourceTree = "<group>"; };
+		9366964D2BB08C8E0041CEBA /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		9366964F2BB0E2400041CEBA /* IntroGoalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroGoalsModel.swift; sourceTree = "<group>"; };
+		936696512BB0E6790041CEBA /* IntroGoalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroGoalsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				936695E72B8A7AE30041CEBA /* WellnessApp.swift */,
-				936695E92B8A7AE30041CEBA /* ContentView.swift */,
+				9366963C2BAF2E2D0041CEBA /* Models */,
+				936696192B8A97D90041CEBA /* ViewModels */,
+				936696122B8A7BEE0041CEBA /* Views */,
 				936695EB2B8A7AE70041CEBA /* Assets.xcassets */,
 				936695ED2B8A7AE70041CEBA /* Preview Content */,
 			);
@@ -125,6 +149,63 @@
 				936696042B8A7AE70041CEBA /* WellnessUITestsLaunchTests.swift */,
 			);
 			path = WellnessUITests;
+			sourceTree = "<group>";
+		};
+		936696122B8A7BEE0041CEBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9366963D2BAF2E5C0041CEBA /* Detail */,
+				936696362B9119230041CEBA /* Components */,
+				9366963E2BAF2E620041CEBA /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		936696192B8A97D90041CEBA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				936696512BB0E6790041CEBA /* IntroGoalsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		936696362B9119230041CEBA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9366963F2BAF2EE10041CEBA /* ProgressButton.swift */,
+				936696412BAF2F1E0041CEBA /* SquareSelectionButton.swift */,
+				936696432BAF2F3F0041CEBA /* DetailCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9366963C2BAF2E2D0041CEBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9366964F2BB0E2400041CEBA /* IntroGoalsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9366963D2BAF2E5C0041CEBA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				936696172B8A93EC0041CEBA /* SetUpTitleView.swift */,
+				936696452BAF30A40041CEBA /* GoalSelectionView.swift */,
+				936696492BAF36380041CEBA /* GoalSetUpBar.swift */,
+				9366964D2BB08C8E0041CEBA /* UserDetailsView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		9366963E2BAF2E620041CEBA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				936695E92B8A7AE30041CEBA /* ContentView.swift */,
+				936696472BAF31980041CEBA /* GoalSelectionIntro.swift */,
+				9366964B2BAF82960041CEBA /* GoalSetUpIntro.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +338,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936696402BAF2EE10041CEBA /* ProgressButton.swift in Sources */,
 				936695EA2B8A7AE30041CEBA /* ContentView.swift in Sources */,
+				936696182B8A93EC0041CEBA /* SetUpTitleView.swift in Sources */,
+				936696522BB0E6790041CEBA /* IntroGoalsViewModel.swift in Sources */,
+				9366964E2BB08C8E0041CEBA /* UserDetailsView.swift in Sources */,
 				936695E82B8A7AE30041CEBA /* WellnessApp.swift in Sources */,
+				9366964C2BAF82960041CEBA /* GoalSetUpIntro.swift in Sources */,
+				936696422BAF2F1E0041CEBA /* SquareSelectionButton.swift in Sources */,
+				9366964A2BAF36380041CEBA /* GoalSetUpBar.swift in Sources */,
+				936696482BAF31980041CEBA /* GoalSelectionIntro.swift in Sources */,
+				936696462BAF30A40041CEBA /* GoalSelectionView.swift in Sources */,
+				936696502BB0E2400041CEBA /* IntroGoalsModel.swift in Sources */,
+				936696442BAF2F3F0041CEBA /* DetailCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
